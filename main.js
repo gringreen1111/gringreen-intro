@@ -7,7 +7,7 @@ const projects = [
     summary: "LiDAR/OPENCV 기반 자율 주행 서빙 로봇 프로젝트",
     description:
       "LiDAR/OPENCV 기반 자율 주행 서빙 로봇 프로젝트",
-    tags: ["Arduino", "C", "JavaScript"],
+    tags: ["python", "C", "JavaScript"],
     link: "https://github.com/gringreen1111/2025-1-WE-MEET-ROS2-serving-robot-project",
   },
   {
