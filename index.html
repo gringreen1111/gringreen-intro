@@ -1,14 +1,103 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <title>gringreen | Portfolio</title>
+  <link href="/style.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">grin<span class="accent">green</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="about">
+    <div class="hero-gradient"></div>
+    <div class="container">
+      <h1 class="hero-title">grin<span class="accent">green</span></h1>
+      <p class="hero-subtitle">University of Kookmin · Intelligent Wireless Systems Lab</p>
+      <p class="hero-desc" id="typing-target">Computer science & Semiconductor engineering</p>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <section class="section fade-in" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-category-title">Languages</h3>
+          <div class="skill-badges">
+            <span class="skill-badge">C</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Verilog</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">Hardware</h3>
+          <div class="skill-badges">
+            <span class="skill-badge">Arduino</span>
+            <span class="skill-badge">FPGA</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">Tools</h3>
+          <div class="skill-badges">
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">VS Code</span>
+            <span class="skill-badge">Vivado</span>
+            <span class="skill-badge">LTspice</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section fade-in" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid" id="project-grid">
+        <!-- Rendered by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section fade-in" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <a href="mailto:gringreen02@gmail.com" class="contact-card">
+          <span class="contact-icon">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">gringreen02@gmail.com</span>
+        </a>
+        <a href="https://github.com/gringreen1111" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <span class="contact-icon">⌘</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/gringreen1111</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 gringreen</p>
+    </div>
+  </footer>
+
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
